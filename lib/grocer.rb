@@ -44,6 +44,6 @@ end
  
 end
 
-consolidate_cart(grocery_shelf)
+#consolidate_cart(grocery_shelf)
 
   

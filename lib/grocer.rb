@@ -33,7 +33,7 @@ final = find_item_by_name_in_collection(key.values[0],newHash)
     newHash << key
     
     newHash.each do |inner_k|
-      i.each do |i,j|
+      inner_k.each do |i,j|
     end
       binding.pry
   end

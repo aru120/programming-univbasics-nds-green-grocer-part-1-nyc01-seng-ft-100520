@@ -35,7 +35,9 @@ final = find_item_by_name_in_collection(key.values[0],newHash)
    binding.pry
   else
   newHash[i][:count] += 1
+  i++
 end
+
 end
 
   newHash

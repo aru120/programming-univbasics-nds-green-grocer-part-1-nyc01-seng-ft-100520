@@ -32,7 +32,9 @@ final = find_item_by_name_in_collection(key.values[0],newHash)
   if final == nil
     newHash << key
     
-    newHash.each do |i|
+    newHash.each do |inner_k|
+      i.each do |i,j|
+    end
       binding.pry
   end
   #   newHash[i][:count] = 1

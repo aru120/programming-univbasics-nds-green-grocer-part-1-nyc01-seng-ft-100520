@@ -28,24 +28,7 @@ def consolidate_cart(cart)
   newHash ={}
 cart.each_with_index do |key|
 
-  key.each do |inner_k, inner_v|
-    
-    
-     { :item => "CANNED BEANS", :price => 3.00, :clearance => true },
-   { :item => "CANNED CORN", :price => 2.50, :clearance => false },
-    { :item => "SALSA", :price => 1.50, :clearance => false },
-    
-    
-    
-    binding.pry
-   newHash[inner_k] = inner_v
-    if newHash[inner_k]
-      newHash[:count] += 1
-  
-   else
-     newHash[inner_k] = inner_v
-     newHash[:count] = 1
-   end
+ 
     
 end
 end

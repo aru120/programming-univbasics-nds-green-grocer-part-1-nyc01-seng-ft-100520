@@ -30,7 +30,7 @@ cart.each_with_index do |key|
 
   key.each do |inner_k, inner_v|
     
-    find_item_by_name_in_collection(inner_v,cart)
+    
     binding.pry
   # newHash[inner_k] = inner_v
   # newHash[:count] = 1

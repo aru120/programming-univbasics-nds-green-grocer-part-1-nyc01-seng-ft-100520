@@ -31,11 +31,13 @@ cart.each_with_index do |key|
 final = find_item_by_name_in_collection(key.values[0],newHash)
   if final == nil
     newHash << key
-    newHash[i][:count] = 1
+    
+    
+  #   newHash[i][:count] = 1
    
-  else 
-    binding.pry
-  newHash[i][:count] + 1
+  # else 
+  #   binding.pry
+  # newHash[i][:count] + 1
   
 end
   i+=1

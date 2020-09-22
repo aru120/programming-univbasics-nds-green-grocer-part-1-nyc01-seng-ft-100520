@@ -32,7 +32,7 @@ if final == nil
   newHash = key
  
   newHash[:count] = 1
-  binding.pry
+  
 else
   newHash[:count] + 1
 

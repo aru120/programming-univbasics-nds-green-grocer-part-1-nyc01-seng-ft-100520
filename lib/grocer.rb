@@ -30,8 +30,9 @@ def consolidate_cart(cart)
 cart.each_with_index do |key|
 final = find_item_by_name_in_collection(key.values[0],newHash)
   if final == nil
+    key[:count] = 1
     newHash << key
-    newHash[:count] = 1
+    
   else
     newHash.each do |inner_k|
     if inner_k[:item] == cart[i][:item]

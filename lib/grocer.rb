@@ -38,7 +38,7 @@ final = find_item_by_name_in_collection(key.values[0],newHash)
     if inner_k[:item] == cart[i][:item]
       inner_k[:count] += 1
     else
-      
+  end
       
       binding.pry
   end

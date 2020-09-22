@@ -31,9 +31,14 @@ cart.each_with_index do |key|
 final = find_item_by_name_in_collection(key.values[0],newHash)
   if final == nil
     newHash << key
-    
+    newHash[:count] = 1
+  else
     newHash.each do |inner_k|
-    if 
+    if inner_k[:item] == cart[i][:item]
+      inner_k[:count] += 1
+    else
+      
+      
       binding.pry
   end
   #   newHash[i][:count] = 1

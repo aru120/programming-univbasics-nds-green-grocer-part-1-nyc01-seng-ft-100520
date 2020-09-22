@@ -29,7 +29,7 @@ def consolidate_cart(cart)
 cart.each_with_index do |key|
 final = find_item_by_name_in_collection(key.values[0],newHash)
 if final == nil
-  newHash[]
+  newHash 
 
  
     

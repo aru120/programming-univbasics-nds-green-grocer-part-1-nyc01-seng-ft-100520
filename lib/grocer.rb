@@ -34,7 +34,7 @@ if final == nil
   newHash[:count] = 1
   binding.pry
 else
-  newHash[:count] += 1
+  newHash[:count] + 1
 
  
     

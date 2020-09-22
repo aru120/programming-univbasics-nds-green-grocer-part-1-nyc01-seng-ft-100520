@@ -26,7 +26,7 @@ end
 
 def consolidate_cart(cart)
   newHash ={}
-cart.each_with_index do |key|
+cart.each_with_index({}) do |key, i|
 final = find_item_by_name_in_collection(key.values[0],newHash)
   if final == nil
     newHash = key

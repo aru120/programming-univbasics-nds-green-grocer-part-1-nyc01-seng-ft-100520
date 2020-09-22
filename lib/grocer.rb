@@ -34,9 +34,6 @@ final = find_item_by_name_in_collection(key.values[0],newHash)
    
   else
   newHash[:count] += 1
-
- 
-    
 end
 end
 

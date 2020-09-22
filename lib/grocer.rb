@@ -38,12 +38,12 @@ cart.each_with_index do |key|
     
     
     binding.pry
-  # newHash[inner_k] = inner_v
-  # newHash[:count] = 1
-  # binding.pry
-  # if newHash[inner_k] = inner_v
-  #   newHash[:count] += 1
-  # end
+   newHash[inner_k] = inner_v
+ #newHash[:count] = 1
+   binding.pry
+   if newHash[inner_k] = inner_v
+     newHash[:count] += 1
+   end
     
 end
 end
